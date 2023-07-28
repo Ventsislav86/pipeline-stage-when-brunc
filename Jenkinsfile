@@ -10,11 +10,11 @@ pipeline {
             }
         } 
        stage('Build Dev') {
-        when{
-         brunch 'dev'
+            when{
+               brunch 'dev'
          }
-        steps {
-            echo 'Building dev'
+            steps {
+                echo 'Building dev'
          }
        }
     }
