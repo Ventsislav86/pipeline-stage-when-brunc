@@ -11,7 +11,7 @@ pipeline {
         } 
        stage('Build Dev') {
         when{
-         brunch 'dev
+         brunch 'dev'
          }
         steps {
             echo 'Building dev'
