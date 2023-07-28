@@ -9,7 +9,7 @@ pipeline {
                 echo 'Building master'
             }
         } 
-       stage('Build Dev') {
+        stage('Build Dev') {
             when{
                brunch 'dev'
          }
